@@ -1,3 +1,0 @@
-#!/bin/sh
-PHAROVMPATH=$(dirname `readlink -f "$0"`)
-LD_LIBRARY_PATH="$PHAROVMPATH" exec "$PHAROVMPATH/pharo" $@
