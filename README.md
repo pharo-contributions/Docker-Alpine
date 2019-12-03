@@ -7,7 +7,7 @@ Approach:
 
 - Use [Alpine Linux as base image](https://hub.docker.com/_/alpine) for
   the Pharo VM Docker image. This requires building the Pharo VM to run on
-  Alpine Linux.
+  Alpine Linux. See ```vm.build``` for the howto.
 
 - Reduce the size of the Pharo VM for Alpine Linux, by removing irrelevant built-in
   and external plugins.
